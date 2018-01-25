@@ -1,0 +1,50 @@
+.wrapper {
+    text-align: left;
+    text-justify: distribute;
+    margin: 0 auto;
+    width: 480px;
+    padding: 25px;
+    font-family: 'Courier New, monospace';
+    background-color: #b5bae9;
+    
+}
+p {
+    font-size: 13px;
+    font-weight: 1000px;
+    font-style: normal;
+    font-family: 'Courier New, monospace';
+}
+h1, h2, h3 {
+    font-family: 'Pathway Gothic One';
+    color:#263555;
+    font-weight: 200;
+}
+.content {
+    width: 45%;
+    display: inline-block;
+    color:#263555;
+}
+.sidebar{
+    display: inline-block;
+    width: 50%;
+    vertical-align: top;
+    color:#263555;
+}
+.text {
+    color:#263555;
+    font-weight: bold;
+}
+.main {
+    display: inline-block;
+    position: relative;
+}
+.main .text1 {
+    display:block;
+    position:absolute;
+    left:0;
+    bottom:0;
+    width:100%;
+}
+.subwrapper {
+    margin: 25px;
+}
