@@ -26,18 +26,6 @@ h1, h2, h3 {
     display: inline-block;
     color:#263555;
 }
-.content p {
-    font-weight: bold;
-}
-.sidebar{
-    display: inline-block;
-    width: 50%;
-    vertical-align: top;
-    color:#263555;
-}
-.sidebar p{
-    font-weight: bold;
-}
 .text{
     color: #263555;
     font-weight: bolder;
@@ -68,3 +56,17 @@ h1, h2, h3 {
 .subwrapper {
     margin: 25px;
 }
+ ul {
+    list-style: none;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    
+    }
+    .content {
+        font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+
+    }
+
+
+
