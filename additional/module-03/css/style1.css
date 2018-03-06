@@ -1,0 +1,15 @@
+.wraper {
+    width: 470px;
+    padding-top: 30px;
+    padding-left: 40px;
+    margin: 0 auto;
+    border: gray solid 1px;
+    color:dimgrey;  
+}
+a {
+    color: dimgray;
+    text-decoration: none;
+    font-family: "Ubuntu";
+    text-transform: uppercase;
+    color:lightgray;
+}

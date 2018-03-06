@@ -1,0 +1,30 @@
+.main {
+display: inline-block;
+width: 430px;
+padding: 0 0 0 35px;
+margin: 0;
+}
+   
+.main-top {
+    display: inline-block;
+    width: 430px;
+    padding: 0 0 0 35px;
+}
+.box {
+    font-family: "Playfair Display";
+    width: 960px;
+    margin: 0 auto;
+    border: gray solid 1px;
+    color:dimgrey;
+}
+a {
+    color: dimgray;
+    text-decoration: none;
+    font-family: "Ubuntu";
+    text-transform: uppercase;
+    color:lightgray;
+}
+ p {
+    font-family: normal;
+    font-size: 16px;
+}
