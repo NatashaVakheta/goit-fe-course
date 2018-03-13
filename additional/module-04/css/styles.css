@@ -1,0 +1,79 @@
+body {
+    counter-reset: numbers;
+}
+    ul {
+    list-style: none;
+    margin: 0 auto;
+    width: 912px;
+   
+    }
+    .limenu li {
+        float: left;
+        border: solid 1px;
+        width: 150px;
+        height: 100px;
+        text-align: center;
+        background-color: coral;
+        padding-top: 65px;
+
+    }
+    
+    .limenu li:hover {
+        box-shadow: inset 0 0 0 15px #53ea93;
+      }
+      
+    .clearfix::after {
+        content: "";
+        display: table;
+        clear: both;
+      }
+     
+      .list-item {
+          margin: 50px auto;
+          width: 828px;
+      }  
+    .list-item li {
+        border: solid 1px;
+        width: 90px;
+        height: 60px;
+        float: left;
+        color: #0E1116;
+        text-align: center;
+        padding-top: 30px;
+    }
+    .list-item li:nth-child(-n+9) {
+        background: #0D5D56;
+    
+    }
+    .list-item li:nth-child(-n+6) {
+        background: #5DB7DE;
+    
+    }
+    .list-item li:nth-child(-n+3) {
+        background: #88292F;
+    }
+    .links {
+        padding: 30px;
+    }
+    .links li {
+        margin: 20px auto;
+        width: 100px;
+    }
+    a::before {
+        content: "\2192";
+        color: blue;
+    }
+
+.text li::before {
+    display: block;
+    counter-increment: numbers;
+    content: "Секция " counter(numbers, upper-roman) ": ";
+    text-align: center;
+    border: solid 1px;
+    height: 60px;
+    width: 100px;
+    padding-top: 40px;
+    background-color: khaki;
+  }
+
+
