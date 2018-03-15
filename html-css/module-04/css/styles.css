@@ -1,0 +1,377 @@
+.menu li {
+    float: right; 
+    list-style: none;
+    font-size: 20px;
+    text-transform: uppercase;
+    
+}
+.menu li+li {
+    padding-right: 30px;
+    
+}
+a {
+    text-decoration: none;
+    color: #000000;
+}
+header {
+    margin: 38px auto;
+    width: 1112px;
+    height: 21px;
+}
+.logo {
+    text-transform: uppercase;
+    font-size: 30px;
+    color:#555252;
+}
+.logo::first-letter {
+    color: #1abc9c;
+}
+.page-header clearfix::after {
+    display: table;
+    content: "";
+    clear: both;
+    }
+
+.titles {
+letter-spacing: -1px;
+line-height: 48px;
+text-align: center;
+text-transform: uppercase;
+height: 34px;
+width: 477px;
+margin: 0 auto 200px auto;
+font-size: 48px;
+color: #515151;
+font-family: 'Roboto', sans-serif;
+}
+
+.titles::after {
+    display: block;
+    width: 165px;
+    height: 8px;
+    margin: 65px auto;
+    background-color: #19bb9b;
+    content: "";
+}
+.card1 {
+    width: 255px;
+    height: 323px;
+   display: block;
+   float: left;
+}
+.card1:hover > .blok1 {
+    background-color: #1abc9c;
+}
+.card1:hover span.price {
+	background-color:#7fd9c7;
+
+}
+.card1 img {
+    padding-top: 0px;
+    margin-left:-44px; 
+}
+.card2 {
+    width: 255px;
+    height: 323px;
+    display: block;
+    float: left;
+}
+
+.card2:hover > .blok2 {
+    background-color: #1abc9c;
+}
+.card2:hover span.price {
+	background-color:#7fd9c7;
+
+}
+
+.card2 img {
+    margin-top: 19px;
+    margin-left: 40px;
+}
+.card3 {
+    width: 256px;
+    height: 323px;
+    display: block;
+    float: left;
+    clear: right;
+}
+.card3:hover > .blok3 {
+    background-color: #1abc9c;
+}
+.card3:hover span.price {
+	background-color:#7fd9c7;
+
+}
+.card3 img {
+    padding-top: 74px;
+    padding-left: 14px;
+}
+.card4 {
+    width: 257px;
+    height: 323px;
+    display: block;
+    float: left;    
+}
+.card4:hover > .blok4 {
+    background-color: #1abc9c;
+}
+.card4:hover span.price {
+	background-color:#7fd9c7;
+
+}
+.card4 img {
+    padding-top: 45px;
+    padding-left: 9px;
+}
+
+.card5 {
+    width: 255px;
+    height: 322px;
+    display: block;
+    float: left;
+}
+.card5:hover > .blok5 {
+    background-color: #1abc9c;
+}
+.card5:hover span.price {
+	background-color:#7fd9c7;
+
+}
+.card5 img {
+    margin-top: -3px;
+    padding-left: 29px;
+}
+.card6 {
+    width: 255px;
+    height: 322px;
+    display: block;
+    float: left;
+}
+.card6:hover > .blok6 {
+    background-color: #1abc9c;
+}
+.card6:hover span.price {
+	background-color:#7fd9c7;
+}
+.card6 img {
+    padding-top: 48px;
+    padding-left: -3px;
+}
+.card7 {
+    width: 256px;
+    height: 322px;
+    display: block;
+    float: left;
+}
+.card7:hover > .blok7 {
+    background-color: #1abc9c;
+}
+.card7:hover span.price {
+	background-color:#7fd9c7;
+}
+.card7 img {
+    padding-top: 20px;
+    padding-left: 30px;
+}
+.card8 {
+    width: 257px;
+    height: 322px;
+    display: block;
+    float: left;
+}
+.card8:hover > .blok8 {
+    background-color: #1abc9c;
+}
+.card8:hover span.price {
+	background-color:#7fd9c7;
+}
+.card8 img {
+    padding-top: 93px;
+    padding-left: 12px;
+}
+.galery {
+    height: 839px;
+    width: 1164px;
+    margin-left: 209px;
+    margin-right: 274px;
+    padding-top: 111px;
+
+}
+
+.cardback {
+    background: #e9effd;
+    margin: 0 0 29px 29px;
+}
+
+.blok1 {
+    width: 100%;
+    height: 40px;
+    background-color: #323232;
+    float: left;
+    clear: right;
+    margin-top: -2px;
+    }
+    .item {
+        text-transform: uppercase;
+        width: 159px;
+        height: 40px;
+        font-size: 18px;
+        letter-spacing: 0px;
+        line-height: 39px;
+        color: rgb(255,255,255);
+        font-family: "Roboto";
+        margin-left: 7px;
+    }
+    .price {
+        float: right;
+        width: 55px;
+        height: 40px;
+        font-size: 18px;
+        letter-spacing: 0px;
+        line-height: 39px;
+        color: rgb(255,255,255);
+        font-family: "Roboto";
+        text-align: center;
+        background: #8c8c8c;
+        margin-left: 7px;
+        }
+    .blok2 {
+        width: 100%;
+        height: 40px;
+        background-color: #323232;
+        float: left;
+        clear: right;
+        margin-top: 14px;
+        }
+    
+    
+    .blok3 {
+        width: 100%;
+        height: 40px;
+        background-color: #323232;
+        float: left;
+        clear: right;
+        margin-top: 47px; 
+    }
+    
+    .blok4 {
+        width: 100%;
+        height: 40px;
+        background-color: #323232;
+        float: left;
+        clear: right;
+        margin-top: 30px; 
+    }
+    .blok5 {
+        width: 100%;
+        height: 40px;
+        background-color: #323232;
+        float: left;
+        clear: right;
+        margin-top: 70px; 
+    }
+    .blok6 {
+        width: 100%;
+        height: 40px;
+        background-color: #323232;
+        float: left;
+        clear: right;
+        margin-top: 50px;   
+    }
+    .blok7 {
+        width: 100%;
+        height: 40px;
+        background-color: #323232;
+        float: left;
+        clear: right;
+        margin-top: 17px;   
+    }
+    .blok8 {
+        width: 100%;
+        height: 40px;
+        background-color: #323232;
+        float: left;
+        clear: right;
+        margin-top: 86px;   
+    }
+    .titles2 {
+    letter-spacing: -1px;
+    line-height: 48px;
+    text-align: center;
+    text-transform: uppercase;
+    height: 34px;
+    width: 477px;
+    margin: 105px auto;
+    font-size: 48px;
+    color: #555252;
+    font-family: 'Roboto', sans-serif;
+    padding-bottom: 74px;
+    }
+    .titlesheader2::after {
+    display: block;
+    width: 165px;
+    height: 8px;
+    margin: 32px auto;
+    background-color: #4ec6ab;
+    content: "";
+    
+    }
+    .wrapper {
+        padding-top: 105px;
+        width: 1200px;
+        height: 650px;
+        margin-left:188px;
+    }
+    p {
+        width: 304px;
+        height: 44px;
+        font-size: 18px;
+        letter-spacing: 0px;
+        line-height: 26px;
+        color: #555252;
+        font-family: "Open Sans" "Semibold";
+        font-weight: bold;
+    }
+    p::after {
+    display: block;
+    width: 137px;
+    height: 4px;
+    margin-top: 17px;
+    background-color: #4dc5ab;
+    content: "";   
+    }
+    .pic1 {
+        width: 472px;
+        height: 497px;
+        float: left;
+        margin-left: 54px;
+    }
+    .pic2 {
+        width: 513px;
+        height: 501px;
+        float: left;
+       margin-left: -99px;
+    }
+    .pic3 {
+        width: 393px;
+        height: 528px;
+        float: left;  
+        margin-left: -142px;
+    }
+    .text {
+        font-size: 14px;
+        font-family: "Open Sans" "Regular";  
+        color: #777575;
+        width: 335px;
+        height: 66px;
+        padding-top:  28px;
+    }
+    button {
+        width: 161px;
+        height: 52px;
+        background-color: #4ec6ab;
+        margin-top: 15px;
+        color: #ffffff;
+        font-size: 16px;
+    }
