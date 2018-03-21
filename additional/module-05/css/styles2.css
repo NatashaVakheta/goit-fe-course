@@ -1,6 +1,6 @@
 .gunmetal {
-    width: 400px;
-    height: 400px;
+    width: 600px;
+    height: 600px;
     background-color: #424242;
     margin: 0 auto;
 
@@ -34,21 +34,24 @@
 .fo {
     position: absolute;
     background-color: darkorange;
-    top: 150px;
     left: 0;
+    top: 50%;
+    transform: translate(0, -50%);
 }
+
 .fife {
     position: absolute;
     background-color: #eecf46;
     left: 50%;
-    right: 50%;
-    transform: translateX(-50%) translateY(150%);
+    top: 50%;
+    transform: translate(-50%, -50%);
 }
 .six {
     position: absolute;
     background-color: gold;
     right: 0;
-    top: 150px;
+    top: 50%;
+    transform: translate(0, -50%);
 }
 .seven {
     position: absolute;
@@ -60,8 +63,8 @@
     position: absolute;
     background-color: green;
     left: 50%;
-    right: 50%;
-    transform: translateX(-50%) translateY(300%);
+    bottom: 0;
+    transform: translate(-50%, 0%);
 }
 .nine {
     background-color: greenyellow;
