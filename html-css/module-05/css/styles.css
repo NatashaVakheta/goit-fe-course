@@ -2,8 +2,12 @@
 body {
     background: #e9f0fd;
 }
+.wraper {
+    width: 1633px;
+    margin: 0 auto;
+}
 header {
-    width: 1718px;
+    width: 1633px;
     height: 91px;
     position: relative;
 }
@@ -14,9 +18,9 @@ header {
 }
 
 .logo h2 {
-    position: absolute;
     left: 235px;
     font-size: 30px;
+    font-family: "Sans-Serif";
     line-height: 78px;
     margin: 0;
 }
@@ -35,8 +39,6 @@ header {
     left: 828px;
     bottom: 30px;
     font-size: 14px;
-    letter-spacing: 0px;
-    line-height: 11px;
     color: rgb(26,188,156);
     font-family: "Open Sans";
     font-weight: bold;
@@ -48,9 +50,10 @@ header {
     list-style: none;
     font-size: 20px;
     display: inline-block;
-    padding-right: 30px;
 }
-
+.menu li+li {
+    padding-left: 30px;
+}
 a {
     color: #000000;
     text-decoration: none;   
@@ -63,7 +66,7 @@ a:hover {
   
 }
 .pic {
-    width: 1718px;
+    width: 1633px;
     height: 602px;
     position: relative;
 }
@@ -71,31 +74,22 @@ a:hover {
     margin-left: -24px;
 }
 
-.subbox1 {
+.subbox1 img {
     position: absolute;
     left: 244px;
     width: 105px;
     height: 104px;
-    background-color: #19bb9b;
     bottom: 266px;
-    font-size: 100px;
-    color: rgb(255,255,255);
-    font-family: "Pe";
     text-align: center;
-    
 }
-.subbox2 {
+
+.subbox2 img {
     position: absolute;
     left: 1252px;
     width: 105px;
     height: 104px;
-    background-color: #19bb9b;
     bottom: 266px;
-    font-size: 100px;
-    color: rgb(255,255,255);
-    font-family: "Pe";
     text-align: center;
-    
 }
 .title {
     position: absolute;
@@ -122,7 +116,7 @@ a:hover {
 
 .sections {
     position: relative;
-    width: 1715px;
+    width: 1633px;
     height: 677px;
 }
 .text {
@@ -152,12 +146,12 @@ a:hover {
 .colection {
     position: absolute;
     top: 120px;
+    width: 1633px;
 }
 
 .picture1  {
-    position: absolute;
-    left:244px;
-    top: 252px;
+    position: relative;
+    margin: 252px 0 0 244px;
     width: 257px;
     height: 323px;
     overflow: hidden;
