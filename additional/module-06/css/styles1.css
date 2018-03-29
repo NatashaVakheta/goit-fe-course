@@ -1,0 +1,45 @@
+.card {
+    display: flex;
+    padding: 5px;
+    border: solid 2px;
+    color: gray;
+    align-items: stretch;
+    width: 300px;
+    flex-wrap: wrap;
+    margin: auto;
+    justify-content: center;
+    background-color: rgb(226, 243, 239);
+    box-shadow: 0 0 5px 2px red;
+    transition: box-shadow 0.2s
+} 
+.card:hover {
+    box-shadow: 0 0 10px 4px red;
+}
+img {
+    transition: transform 0.2s;
+    margin: 10px;
+}
+img:hover {
+    transform: rotate(5deg);
+}
+h2 {
+  transition: transform 0.2s, color 0.3s;
+  text-transform: uppercase;
+}
+h2:hover {
+    color: tan;
+    transform: scale(1.15);
+}
+button:hover {
+    background-color: thistle;
+    transform: scale(2);
+}
+button {
+    transition: background-color 0.2s;
+    width: 140px;
+    height: 30px;
+    background-color: grey;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+
+}

@@ -1,0 +1,20 @@
+section{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 630px;
+    margin: auto;
+}
+img {
+    border: solid 1px;
+    color: gray;
+    padding: 10px;
+    max-width: 180px;
+    max-height: 180px;
+    margin: 4px;
+    align-self: flex-start;   
+    transition: transform 0.2s; 
+}
+img:hover {
+    transform: skew(10deg,-10deg);
+}
