@@ -2,6 +2,9 @@
 body {
     background: #e9f0fd;
 }
+.clearfix {
+    clear: both;
+}
 .wraper {
     width: 1633px;
     margin: 0 auto;
@@ -11,15 +14,16 @@ header {
     height: 91px;
 }
 .logo {
+    display: inline-block;
     width: 257px;
     height: 74px;
+    padding-left: 244px;
 }
 .logo h2 {
     font-size: 30px;
     font-family: "Sans-Serif";
     line-height: 78px;
     margin: 0;
-    padding-left: 244px;
 }
 .logo h2::first-letter{
     color: #7dd9c7;
@@ -27,8 +31,7 @@ header {
 
 .menu {
     float: right;
-    margin-top: -43px;
-    padding-right: 244px;
+    padding-right: 180px;
     text-transform: uppercase;
 }
 .menu li {
