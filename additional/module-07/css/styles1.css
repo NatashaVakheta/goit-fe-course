@@ -1,0 +1,23 @@
+table {
+    text-align: center;
+    border-collapse: collapse;
+    border: 2px solid rgb(75, 73, 73);
+    margin: auto;
+    font-size: 18px;
+   
+}
+caption {
+    font-size: 24px;
+    margin: 15px;
+}
+th, td {
+    border: 2px solid rgb(75, 73, 73);
+    padding: 15px;
+}
+th {
+    background-color: rgb(75, 73, 73);
+    color: white;
+}
+tr td:nth-child(1) {
+    text-transform: uppercase;
+}
