@@ -1,0 +1,196 @@
+body {
+    background: black;
+}
+.wrapper {
+    width: 1400px;
+    margin: 0 auto;
+    background: white;
+}
+.init {
+    width: 932px;
+    padding-top: 44px;
+    margin: 0 auto;
+}
+header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 120px;
+}
+
+@font-face {
+    font-family: 'Oleo Script';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Oleo Script'), local('OleoScript-Regular'),
+         url('../fonts/oleo-script-v6-latin-regular.woff2') format('woff2'),
+         url('../fonts/oleo-script-v6-latin-regular.woff') format('woff'); 
+}
+.logo {
+    display: flex;
+}
+.logo h2 {
+    font-family: 'Oleo Script';
+    color:  #fed136;
+}
+.menu {
+    display: flex;
+    list-style: none;
+    margin-left: auto;
+}
+.menu li {
+    padding-left: 50px;
+}
+
+.menu a {
+    text-decoration: none;
+    font-size: 14px;
+    font-family: "Montserrat";
+    text-align: center;
+    color: #212121;
+}
+.menu a:hover {
+    color: #fed136;
+}
+
+section h2 {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 40px;    
+    color: rgb(34,34,34);
+    font-family: "Montserrat";
+    font-weight: bold;
+}
+.title {
+    width: 100%;
+    text-align: center;
+    margin-top: 19px;
+    font-size: 16px;
+    color: rgb(119,119,119);
+    font-family: "Droid Serif";
+    font-style: italic;
+    
+}
+.list-item {
+    list-style: none;
+    display: flex;
+    justify-content: flex-start;
+}
+
+h3 {
+    text-align: center;
+    font-size: 18px;
+    color: rgb(34,34,34);
+    font-family: "Montserrat";
+    font-weight: bold;  
+}
+.list-item p {
+    font-size: 14px;
+    color: rgb(119,119,119);
+    font-family: "Roboto Slab";
+    text-align: center;
+}
+.list li::before {
+    background-image: url(../image/Circle-1.png);
+    background-repeat:no-repeat;
+    background-position: center center;
+}
+.list li:nth-child(1)::before {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    content: url(../image/Icon-Basket.png);
+    height: 74px;
+}
+.list li:nth-child(2)::before {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    content: url(../image/Icon-Laptop.png);
+    height: 74px;
+}
+.list li:nth-child(3)::before {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    content: url(../image/Icon-Locked.png);
+    height: 74px;
+}
+section {
+    margin-bottom: 120px;
+}
+main {
+    background-color: #000000;
+    background-image: url(../image/Map_Image.png);
+    background-repeat: no-repeat;
+    background-position:  right bottom;
+    padding: 100px;
+}
+main h2 {
+   
+    font-size: 40px;
+    color: rgb(255,255,255);
+    font-family: "Montserrat";
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+}
+.subform {
+    display: inline-block;
+    width: 450px;
+    vertical-align: middle;
+}
+input {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    height: 50px;
+}
+.subform  input[type='text']:valid {
+    outline: 3px solid green;
+}
+
+.subform input[type='email']:valid {
+    outline: solid 2px green;
+}
+
+textarea:valid {
+    outline: solid 2px green;
+}
+
+.subform input[type='text']:invalid {
+    outline: solid 2px red;
+}
+.subform input[type='email']:invalid {
+    outline: solid 2px red;
+}
+textarea:invalid {
+    outline: solid 2px red;
+}
+input+input {
+    margin-top: 30px;
+}
+textarea {
+    width: 100%;
+    height: 220px;
+    margin-left: 30px;
+}
+.form-reg {
+    width: 930px;
+    margin: 0 auto;
+}
+.buttons {
+    margin-top: 30px;
+}
+.buttons input {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    width: 240px;
+    background-color: #fed136;
+    font-size: 18px;
+    color: rgb(255,255,255);
+    font-family: "Montserrat";
+    font-weight: bold;
+    
+}
