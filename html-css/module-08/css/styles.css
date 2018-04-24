@@ -1,0 +1,203 @@
+
+main {
+  
+    padding-top: 30px;
+    background-color: black;
+
+}
+.link a {
+    font-size: 14px;
+    color: rgb(255,255,255);
+    font-family: "Montserrat";
+    font-weight: bold;
+    text-decoration: none;
+    display: inline-block;
+    width: 90px;
+    text-align: center;
+    padding: 5px;
+    border: solid transparent 2px;
+}
+
+.link a:hover {
+    border: solid 2px;
+    border-radius: 20px;
+    color: white;
+}
+.link  {
+   display: inline-block;
+    text-align: center; 
+}
+.urla {
+    font-size: 20px;
+    color: rgb(255,255,255);
+    font-family: "Montserrat";
+    font-weight: bold;
+    display: inline;
+}
+
+h1 {
+    font-size: 30px;
+    color: rgb(255,255,255);
+    font-family: "Montserrat";
+    font-weight: bold;
+    text-align: center;
+}
+.text {
+    font-size: 18px;
+    color: rgb(255,255,255);
+    font-family: "Roboto";
+    text-align: center;
+}
+.subtext {
+    font-size: 14px;
+    color: rgb(255,255,255);
+    font-family: "Montserrat";
+    font-weight: bold;
+    text-align: center;
+    background-color: #ff4e50;
+    border-radius: 20px;
+    height: 40px;
+    width: 280px;
+    margin: auto;
+    padding-top: 14px;
+    
+}
+h2 {
+    margin-top: 65px;
+    margin-bottom: 15px;
+    font-size: 22px;
+    color: rgb(51,51,51);
+    font-family: "Montserrat";
+    font-weight: bold;
+    text-align: center;
+}
+.card {
+    margin: 27px auto;
+    width: 215px;
+    text-align: center;
+    list-style: none;
+}
+.card span {
+    font-size: 14px;
+    color: rgb(51,51,51);
+    font-family: "Montserrat";
+    font-weight: bold;
+    text-align: center;
+   
+}
+.card p {
+    font-size: 14px;
+    color: rgb(102,102,102);
+    font-family: "Roboto";
+    text-align: center;
+    margin-bottom: 20px;
+    
+}
+.pic img {
+    border-radius: 100px;
+}
+.btn {
+    border-radius: 20px;
+    border: solid 2px #ff4d4f;
+    font-size: 14px;
+    color: rgb(255,78,80);
+    font-family: "Montserrat";
+    font-weight: bold;
+    text-align: center;
+    width: 193px;
+    margin: auto;
+}
+.card:nth-child(1) .pic::before {
+    content: '';
+    position: absolute;
+    background: url(../image/Ellipse1.png);
+    background-position-x: right;
+    background-position-y: bottom;
+    background-repeat: no-repeat;
+    width: 130px;
+    height: 130px;
+    pointer-events: none;
+}
+.card:nth-child(1)::before {
+    z-index: 1;
+    content: '';
+    position: absolute;
+    background: url(../image/Shape128.png);
+    background-position-x: right;
+    background-position-y: bottom;
+    background-repeat: no-repeat;
+    width: 57px;
+    height: 117px;
+    pointer-events: none;
+}
+
+.card:nth-child(2) .pic::before {
+    content: '';
+    position: absolute;
+    background: url(../image/Ellipse2.png);
+    background-position-x: right;
+    background-position-y: bottom;
+    background-repeat: no-repeat;
+    width: 130px;
+    height: 130px;
+    pointer-events: none;
+}
+.card:nth-child(2)::before {
+    z-index: 1;
+    content: '';
+    position: absolute;
+    background: url(../image/Shape155.png);
+    background-position-x: right;
+    background-position-y: bottom;
+    background-repeat: no-repeat;
+    width: 55px;
+    height: 118px;
+    pointer-events: none;
+}
+
+.card:nth-child(3) .pic::before {
+    content: '';
+    position: absolute;
+    background: url(../image/Ellipse3.png);
+    background-position-x: right;
+    background-position-y: bottom;
+    background-repeat: no-repeat;
+    width: 130px;
+    height: 130px;
+    pointer-events: none;
+}
+.card:nth-child(3)::before {
+    z-index: 1;
+    content: '';
+    position: absolute;
+    background: url(../image/Shape153.png);
+    background-position-x: right;
+    background-position-y: bottom;
+    background-repeat: no-repeat;
+    width: 57px;
+    height: 115px;
+    pointer-events: none;
+}
+.card:nth-child(4) .pic::before {
+    content: '';
+    position: absolute;
+    background: url(../image/Ellipse4.png);
+    background-position-x: right;
+    background-position-y: bottom;
+    background-repeat: no-repeat;
+    width: 130px;
+    height: 130px;
+    pointer-events: none;
+}
+.card:nth-child(4)::before {
+    z-index: 1;
+    content: '';
+    position: absolute;
+    background: url(../image/Shape170.png);
+    background-position-x: right;
+    background-position-y: bottom;
+    background-repeat: no-repeat;
+    width: 55px;
+    height: 116px;
+    pointer-events: none;
+}

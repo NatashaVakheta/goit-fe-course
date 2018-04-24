@@ -1,0 +1,117 @@
+@media screen and (max-width: 768px) {
+    .wrapper {
+        width: 320px;
+       margin: auto;
+    }
+    main {
+        background: url('../image/VectorSmartObjectMobile.png');
+        background-color: black;
+        background-position: center top;
+        background-repeat: no-repeat;
+        width: 319px;
+        height: 520px;
+    }
+
+    .header {
+        display: inline;
+        margin: auto;
+        margin-left: 71px;
+        text-align: center;
+    }
+    
+    .urla {
+        display: inline-block;
+        width: 100%;
+        margin-top: 140px;
+        text-align: center;
+    }
+}
+@media screen and (min-width: 769px)  and (max-width: 1440px) {
+    .wrapper {
+        width: 750px;
+        margin: auto;
+    }
+    main {
+        background: url('../image/VectorSmartObjectTablet.png');
+        background-position: center top;
+        background-color: black;
+        background-repeat: no-repeat;
+        width: 768px;
+        height: 670px;
+        
+    }
+     .header {
+        display: block;
+        width: 670px;
+        margin: auto;
+        align-items: center;
+        margin: 0 auto;
+    }
+    .link  {
+        float: right;
+    }
+     h1 {
+        text-align: center;
+        margin-top: 220px;
+       
+    }
+        .list {
+            display: flex;
+            width: 470px;
+            margin: auto;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+        .subtext {
+            margin-top: 112px;
+        }
+        .text {
+            margin-top: 40px;
+        }
+}
+@media screen and (min-width: 1441px)  {
+    .wrapper {
+        width: 1440px;
+        margin: auto;
+    }
+    main {
+        background: url('../image/VectorSmartObjectdesktop.png');
+        background-position: center top;
+        background-color: black;
+        background-repeat: no-repeat;
+        height: 670px;
+    }
+    .header {
+        display: block;
+        width: 940px;
+        align-items: center;
+        margin: 0 auto;
+    }
+    .link  {
+        float: right;
+    }
+    h1 {
+        text-align: center;
+        margin-top: 226px;
+    }
+
+    .subtext {
+        margin-top: 118px;
+    }
+
+    .text {
+        margin-top: 40px;
+    }
+
+    .list {
+        display: flex;
+        margin: auto;
+        align-items: center;
+        width: 914px;
+       
+    }
+    .btn {
+        margin: auto;
+    }
+}
+
