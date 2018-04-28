@@ -1,0 +1,21 @@
+.colorful {
+    background:  rgb(255, 251, 0);
+    height: 100px;
+}
+.colorful2 {
+    background-color: lightgreen;
+    height: 100px;
+}
+.grid-item-one {
+    background-color: lightpink;
+    height: 100px;
+}
+.grid-item-two {
+    background-color: lightsalmon;
+    height: 100px;
+}
+.grid-item-three {
+    background-color: plum;
+    height: 100px;
+
+}
