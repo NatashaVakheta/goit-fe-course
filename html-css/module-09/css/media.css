@@ -1,0 +1,107 @@
+@media screen and (max-width: 787px) {
+    .container {
+        width: 320px;
+        margin: auto;
+    }
+    .header .row {
+         display: flex;
+        flex-direction: column-reverse;
+}
+    .link {
+        display: flex;
+        width: 200px;
+        text-align: center;
+        margin: auto;
+    }
+    .urla {
+        display: flex;
+        margin-top: 120px;
+        text-align: center;
+    }
+}
+
+@media screen and (min-width: 788px)  and (max-width: 1199px) {
+    .container {
+        width: 768px;
+        margin: auto;
+    }
+    .main {
+        background: url('../image/VectorSmartObjectTablet.png');
+        background-position: center top;
+        background-color: black;
+        background-repeat: no-repeat;
+        width: 690px;
+        height: 700px;
+        
+    }
+    .link {
+        width: 50%;
+    }
+    .urla {
+        width: 50%;
+    }
+    h1 {
+    margin-top: 140px;
+    width: 428px;
+    font-size: 52px;
+
+    }
+    .text {
+    margin-top: 5px;
+     font-size: 24px;
+    }
+    .subtext {
+    margin-top: 15px;
+    width: 225px;
+    height: 40px;
+    border-radius: 20px;
+    }
+    .btn {
+    margin-top: 30px;
+    }
+}
+@media screen and (min-width: 1200px)  {
+    .container {
+        width: 1141px;
+        margin: auto;
+    }
+    .main {
+        background: url('../image/VectorSmartObjectdesktop.png');
+        background-position: center top;
+        background-color: black;
+        background-repeat: no-repeat;
+        height: 700px;
+    }
+    .link {
+        width: 50%;
+    }
+    .urla {
+        width: 50%;
+    }
+    h1 {
+    margin-top: 140px;
+    width: 428px;
+    font-size: 52px;
+    }
+    .text {
+        margin-top: 5px;
+         font-size: 24px;
+       }
+       .subtext {
+        margin-top: 15px;
+        width: 225px;
+        height: 40px;
+
+       }
+
+    .card {
+        margin: 27px 30px 0 30px;
+        width: 175px;
+        text-align: center;
+        list-style: none;
+}
+    .btn {
+        margin-top: 50px;
+        }
+}
+
