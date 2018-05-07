@@ -1,0 +1,15 @@
+
+.block {
+    width: 400px;
+    height: 200px;
+     background: url('../image/placeimg_400_200_arch.jpg') no-repeat;
+     margin: auto;
+}
+    @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+     .block {
+    width: 800px;
+    height: 400px;
+    background: url('../image/placeimg_800_400_arch.jpg') no-repeat;
+
+  }
+}
