@@ -1,0 +1,61 @@
+.page__header {
+display: -webkit-box;
+display: -ms-flexbox;
+display: flex;
+width: 1200px;
+margin: auto;
+}
+.header__logo {
+display: -webkit-box;
+display: -ms-flexbox;
+display: flex;
+font-size: 30px;
+color: rgb(255,255,255);
+font-family: "Montserrat";
+font-weight: bold;
+}
+.page__nav {
+list-style: none;
+font-size: 14px;
+color: rgb(255,255,255);
+font-family: "Montserrat";
+text-align: center;
+display: -webkit-box;
+display: -ms-flexbox;
+display: flex;
+-webkit-box-pack: justify;
+-ms-flex-pack: justify;
+justify-content: space-between;
+margin-left: auto;
+width: 620px;
+}
+.link {
+text-decoration: none;
+font-size: 14px;
+color: rgb(255,255,255);
+font-family: "Montserrat";
+font-weight: regular;
+color: #ffffff;
+}
+.link__item {
+font-weight: bold;
+text-align: center;
+text-transform: uppercase;
+border: solid 2px;
+width: 160px;
+padding: 10px;
+display: block;
+margin: auto;
+
+}
+
+.nav__link--sublink:hover {
+color: #fce38a;
+border-bottom: 1px solid;
+padding-bottom: 10px;
+}
+.nav__link--sublink:active {
+position: relative;
+top: 10px;
+}
+

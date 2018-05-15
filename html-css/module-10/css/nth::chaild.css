@@ -1,0 +1,23 @@
+.container-list:nth-child(1) {
+    background: url(../image/ALARM.svg) no-repeat;
+
+}
+.container-list:nth-child(2) {
+    background: url(../image/LINE.svg) no-repeat;
+
+}
+.container-list:nth-child(3) {
+    background: url(../image/COMPUTER.svg) no-repeat;
+
+}
+.container-list:nth-child(4) {
+    background: url(../image/BOOK.svg) no-repeat;
+
+}
+.container-list:nth-child(5) {
+    background: url(../image/HOME.svg) no-repeat;
+
+}
+.container-list:nth-child(6) {
+    background: url(../image/IMAGE.svg) no-repeat;
+}

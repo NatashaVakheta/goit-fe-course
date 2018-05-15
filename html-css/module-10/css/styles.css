@@ -1,0 +1,120 @@
+@import "header.css";
+@import "banner.css";
+@import "lead.css";
+@import "icons.css";
+@import "nth::chaild.css";
+@import "caption-title-desk.css";
+@import "features.css";
+@import "footer.css";
+@import "main-team.css";
+@import "icon.css";
+.wrapper {
+background-image: linear-gradient(to top, rgba(229, 209, 131, 0.9), rgba(238, 138, 137, 0.9)), url(../image/Berd-min.png);
+width: 1920px;
+height: 1130px;
+margin: auto;
+}
+.banner {
+height: 1130px;
+width: 1920px;
+}
+.section__container {
+display: -webkit-box;
+display: -ms-flexbox;
+display: flex;
+width: 1140px;
+-ms-flex-wrap: wrap;
+flex-wrap: wrap;
+margin: auto;
+}
+.container-list {
+display: -webkit-box;
+display: -ms-flexbox;
+display: flex;
+width: 270px;
+-ms-flex-wrap: wrap;
+flex-wrap: wrap;
+align-items: center;
+padding-left: 100px;
+margin-bottom: 100px;
+}
+.container-list:nth-child(1) {
+    background: url(../image/ALARM.svg) no-repeat;
+
+}
+.container-list:nth-child(2) {
+    background: url(../image/LINE.svg) no-repeat;
+
+}
+.container-list:nth-child(3) {
+    background: url(../image/COMPUTER.svg) no-repeat;
+
+}
+.container-list:nth-child(4) {
+    background: url(../image/BOOK.svg) no-repeat;
+
+}
+.container-list:nth-child(5) {
+    background: url(../image/HOME.svg) no-repeat;
+
+}
+.container-list:nth-child(6) {
+    background: url(../image/IMAGE.svg) no-repeat;
+}
+.desk__lead {
+display: -webkit-box;
+display: -ms-flexbox;
+display: flex;
+-webkit-box-pack: start;
+-ms-flex-pack: start;
+justify-content: flex-start;
+}
+.main__lead {
+margin: auto;
+display: block;
+text-align: center;
+width: 954px;
+}
+.job {
+text-align: center;
+}
+.card {
+position: relative;
+}
+.card:hover > .icons {
+ visibility: visible;
+ -webkit-transform: translate(-10px, -10px);
+-ms-transform: translate(-10px, -10px);
+transform: translate(-10px, -10px);
+}
+.card:hover > img {
+-webkit-transform: translate(-10px, -10px);
+-ms-transform: translate(-10px, -10px);
+transform: translate(-10px, -10px);
+-webkit-box-shadow: #95e1d3 10px 10px;
+ box-shadow: #95e1d3 10px 10px;
+}
+.twitter__icon--thumb:hover {
+ background-color: #ffffff;
+}
+.pinterest__icon--thumb:hover {
+background-color: #ffffff;
+}
+
+.instagram__icon--thumb:hover {
+background-color: #ffffff;
+}
+.footer__forms {
+display: -webkit-box;
+display: -ms-flexbox;
+display: flex;
+ margin-left: auto;
+}
+.forms__btn  {
+font-size: 14px;
+color: rgb(255,255,255);
+font-family: "Montserrat";
+font-weight: bold;
+text-align: center;
+background-color: #95e1d3;
+}

@@ -1,0 +1,14 @@
+.icons {
+    visibility: hidden;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    background: -webkit-gradient(linear, left bottom, left top, from(rgba(229, 209, 131, 0.9)), to(rgba(238, 138, 137, 0.9)));
+    background: -webkit-linear-gradient(bottom, rgba(229, 209, 131, 0.9), rgba(238, 138, 137, 0.9));
+    background: -o-linear-gradient(bottom, rgba(229, 209, 131, 0.9), rgba(238, 138, 137, 0.9));
+    background: linear-gradient(to top, rgba(229, 209, 131, 0.9), rgba(238, 138, 137, 0.9));
+    width: 380px;
+    height: 470px;
+    position: absolute;
+    top: 0;
+}
