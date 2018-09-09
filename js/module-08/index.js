@@ -40,12 +40,12 @@ function handleImageClick(event) {
 document.querySelector('.image-gallery').querySelector(".preview").addEventListener("click", handleImageClick);
 
 const galleryItems = [
-  { preview: '/home/natali/goit-fe-course/js/module-08/image/download.jpeg', fullview: '/home/natali/goit-fe-course/js/module-08/image/downloadfiles.jpeg', alt: "alt text 1" },
-  { preview: '/home/natali/goit-fe-course/js/module-08/image/forestway.jpeg', fullview: '/home/natali/goit-fe-course/js/module-08/image/forestwayfull.jpeg', alt: "alt text 2" },
-  { preview: '/home/natali/goit-fe-course/js/module-08/image/images.jpeg', fullview: '/home/natali/goit-fe-course/js/module-08/image/naturefull.jpg', alt: "alt text 3" },
-  { preview: '/home/natali/goit-fe-course/js/module-08/image/most-beatf.jpeg', fullview: '/home/natali/goit-fe-course/js/module-08/image/outum.jpeg', alt: "alt text 4" },
-  { preview: '/home/natali/goit-fe-course/js/module-08/image/river.jpeg', fullview: '/home/natali/goit-fe-course/js/module-08/image/Beauty.jpg', alt: "alt text 5" },
-  { preview: '/home/natali/goit-fe-course/js/module-08/image/tree.jpeg', fullview: '/home/natali/goit-fe-course/js/module-08/image/sunfull.jpg', alt: "alt text 6" },
+  { preview: 'image/download.jpeg', fullview: 'image/downloadfiles.jpeg', alt: "alt text 1" },
+  { preview: 'image/forestway.jpeg', fullview: 'image/forestwayfull.jpeg', alt: "alt text 2" },
+  { preview: 'image/images.jpeg', fullview: 'image/naturefull.jpg', alt: "alt text 3" },
+  { preview: 'image/most-beatf.jpeg', fullview: 'image/outum.jpeg', alt: "alt text 4" },
+  { preview: 'image/river.jpeg', fullview: 'image/Beauty.jpg', alt: "alt text 5" },
+  { preview: 'image/tree.jpeg', fullview: 'image/sunfull.jpg', alt: "alt text 6" },
 ];
 
 
