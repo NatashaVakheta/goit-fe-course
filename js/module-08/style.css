@@ -1,0 +1,22 @@
+.image-gallery {
+    border: 4px double black; 
+    background: #rgb(59, 216, 236);
+    padding: 5px;
+    margin; auto;
+  }
+  .fullview img {
+    display: flex;
+    margin: auto;
+  border: solid 2px gray; 
+  max-width: 1280px;
+  }
+  .preview {
+    display: flex;
+    list-style: none;
+  }
+  .preview img {
+    display: flex;
+    border: solid 2px green;
+    margin: 3px;
+    max-width: 200px;
+  }
