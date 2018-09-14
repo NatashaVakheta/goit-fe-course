@@ -1,0 +1,14 @@
+.stopwatch {
+  margin: auto;
+  text-align: center;
+  display: inline-block;
+}
+.wrap {
+  margin: auto;
+  width: 200px;
+  height: 200px;
+  border: solid 2px gray;
+  padding: 10px;
+  text-align: center;
+  background: lightskyblue;
+}
