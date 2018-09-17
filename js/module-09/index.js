@@ -23,7 +23,6 @@ function start() {
 }
 
 document.querySelector('.btn.js-start').addEventListener('click', () => {
-  console.log(event);
   document.querySelector('.btn.js-reset').disabled = false;
   document.querySelector('.btn.js-take-lap').disabled = false;
   const obj = document.querySelector('.btn.js-start');
@@ -42,7 +41,8 @@ document.querySelector('.btn.js-take-lap').addEventListener('click', (event) => 
 });
 
 document.querySelector('.btn.js-reset').addEventListener('click', (event) => {
-  event.path[0].disabled = true;
+  document.querySelector('.btn.js-reset').disabled = true;
+  document.querySelector('.btn.js-start').disabled = false;
   document.querySelector('.btn.js-take-lap').disabled = true;
   document.querySelector('.laps.js-laps').innerHTML = '';
   document.querySelector('.btn.js-start').innerHTML = 'Start';
