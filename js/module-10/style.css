@@ -1,0 +1,16 @@
+.wrap {
+  margin: auto;
+  width: 600px;
+  border: solid 2px deepskyblue;
+  padding: 20px 20px 0 20px;
+}
+input {
+  border-radius: 5px;
+  font: 14px/1.4 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin: 5px;
+  
+}
+.Allusers {
+  text-align: center;
+  margin: 10px;
+}
