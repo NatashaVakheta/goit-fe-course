@@ -105,28 +105,28 @@ function filter() {
     if (colors.length > 0) {check++;}
     if (release_dates.length > 0) {check++;}
     for (let i = 0; i < sizes.length; i++) {
-      if (sizes[i].value === laptops[j].size) {
+      if (sizes[i].value == laptops[j].size) {
         add++;
         break;
       }
     }
     for (let i = 0; i < colors.length; i++) {
-      if (colors[i].value === laptops[j].color) {
+      if (colors[i].value == laptops[j].color) {
         add++;
         break;
       }
     }
     for (let i = 0; i < release_dates.length; i++) {
-      if (release_dates[i].value === laptops[j].release_date) {
+      if (release_dates[i].value == laptops[j].release_date) {
         add++;
         break;
       }
     }
-    if (add === check) {
+    if (add == check) {
       laptopsFiltered.push(laptops[j])
     }
   }
-  if(laptopsFiltered.length === 0) {
+  if(laptopsFiltered.length == 0) {
     alert("Ноутбуки не найдены");
   }
   document.querySelector('#cards').innerHTML = tmpl({items: laptopsFiltered});
