@@ -126,7 +126,7 @@ function filter() {
       laptopsFiltered.push(laptops[j])
     }
   }
-  if(laptopsFiltered.length == 0) {
+  if (laptopsFiltered.length == 0) {
     alert("Ноутбуки не найдены");
   }
   document.querySelector('#cards').innerHTML = tmpl({items: laptopsFiltered});
